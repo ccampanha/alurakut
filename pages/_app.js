@@ -13,6 +13,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     font-family: sans-serif;
     background-color: #D9E6F6;
+    background-image: url("../src/lib/images/background.jpg");
+    background-size: cover;
   }
 
   #__next {

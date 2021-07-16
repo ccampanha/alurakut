@@ -100,7 +100,7 @@ AlurakutMenu.Wrapper = styled.header`
   .container {
     background-color: #308bc5;
     padding: 7px 16px;
-    max-width: 1110px;
+    max-width: 1300px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -365,7 +365,7 @@ const AlurakutLoginScreen = css`
   }
   .loginScreen {
     padding: 16px;
-    max-width: 1110px;
+    max-width: 1300px;
     display: grid;
     --gap: 12px;
     --gutter: 16px;
