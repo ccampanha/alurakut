@@ -3,7 +3,7 @@ import nookies from  'nookies'
 import jwt from 'jsonwebtoken';
 import MainGrid from '../src/components/MainGrid'
 import Box from '../src/components/Box'
-import IndexPage from '../src/components/IndexPage'
+//import IndexPage from '../src/components/IndexPage'
 import PostBox from '../src/components/PostBox';
 import CustomizedInput from '../src/components/CustomizedInput';
 
@@ -291,7 +291,6 @@ export default function Home(props) {
           </PostBox>
 
         </div>
-
 
         <div
           className="profileRelationsArea"
