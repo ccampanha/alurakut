@@ -100,7 +100,7 @@ AlurakutMenu.Wrapper = styled.header`
   .container {
     background-color: #308bc5;
     padding: 7px 16px;
-    max-width: 1300px;
+    max-width: 80vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -124,7 +124,7 @@ AlurakutMenu.Wrapper = styled.header`
         display: flex;
       }
       a {
-        font-size: 12px;
+        font-size: 14px;
         color: white;
         padding: 10px 16px;
         position: relative;
@@ -152,7 +152,7 @@ AlurakutMenu.Wrapper = styled.header`
       background-position: 15px center;
       background-repeat: no-repeat;
       border-radius: 1000px;
-      font-size: 12px;
+      font-size: 14px;
       ::placeholder {
         color: #ffffff;
         opacity: 1;
@@ -229,7 +229,7 @@ export function AlurakutProfileSidebarMenuDefault() {
 }
 AlurakutProfileSidebarMenuDefault.Wrapper = styled.div`
   a {
-    font-size: 12px;
+    font-size: 14px;
     color: #2e7bb4;
     margin-bottom: 16px;
     display: flex;
@@ -365,7 +365,7 @@ const AlurakutLoginScreen = css`
   }
   .loginScreen {
     padding: 16px;
-    max-width: 1300px;
+    max-width: 80vw;
     display: grid;
     --gap: 12px;
     --gutter: 16px;
@@ -397,7 +397,7 @@ const AlurakutLoginScreen = css`
         min-height: 368px;
       }
       p {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 1.2;
         &:not(:last-child) {
           margin-bottom: 12px;
